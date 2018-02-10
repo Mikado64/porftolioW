@@ -1,0 +1,29 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.background{
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    background: url("images/w7.jpg");
+    background-repeat: no-repeat;
+    display: table;
+    top: 0;
+    background-size: cover;
+}
+
+nav{
+    bottom: 0px;
+    height: 50px;
+    width: 100%;
+    background-color: rgba(36, 106, 198, 0.4);
+    position: fixed;
+}
+
+nav img{
+    height: 50px;
+}
