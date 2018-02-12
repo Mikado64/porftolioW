@@ -44,29 +44,6 @@ nav a, li p{
     margin: 0;
 }
 
-/*-- conteneur footer --*/
-.conteneur_description_footer{
-    position: absolute;
-    bottom: 80px;
-    display: inline-flex;
-}
-
-.description_dock_footer{
-    top: 25px;
-    height: 20px;
-    width: 90px;
-    background-color: #aaa7aa;
-    text-align: center;
-}
-.description_dock_footer p{
-    margin: 0;
-}
-
-.description_dock_footer i{
-    color: #aaa7aa;
-    margin-top: -12px;
-}
-
 /* --------- dock_footer --------*/
 .dock_footer{
     position: absolute;
@@ -83,6 +60,48 @@ nav a, li p{
     margin-left: 10px;
 }
 
+/* ------------- hover ---------------*/
+.hover img{
+    height: 65px;
+}
 
+.hover{
+    margin: 0;
+    float:left;
+    position:relative;
+    cursor:pointer;
+}
 
+span{
+    background:#aaa7aa;
+    font-size: 13px;
+    height: 30px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    top: -120px;
+    left:-30px;
+    display:none;
+    padding:0 20px;
+    
+}
+span:after{
+    content:'';
+    position:absolute;
+    bottom:-5px; 
+    width:10px;
+    height:10px;
+    background:#aaa7aa;
+    left:50%;
+    margin-left:-10px;
+    -moz-transform:rotate(45deg);
+    -webkit-transform:rotate(45deg);
+    transform:rotate(45deg);
+}
+
+.hover:hover span{
+    display:block;
+}
 
