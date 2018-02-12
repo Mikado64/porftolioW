@@ -50,30 +50,18 @@ nav a, li p{
     bottom: 0;
     height: 65px;
     width: 1100px;
-    text-align: center;
-    background-color: #aaa7aa;
+    background-color: rgba(209, 209, 209, 0.6);
     display: inline-flex;
-}
-
-.dock_footer img{
-    height: 65px;
-    margin-left: 10px;
 }
 
 /* ------------- hover ---------------*/
 .hover img{
     height: 65px;
-}
-
-.hover{
-    margin: 0;
-    float:left;
-    position:relative;
-    cursor:pointer;
+    margin: 0 5px;
 }
 
 span{
-    background:#aaa7aa;
+    background-color: rgba(209, 209, 209, 1);
     font-size: 13px;
     height: 30px;
     letter-spacing: 1px;
@@ -82,18 +70,19 @@ span{
     text-align: center;
     text-transform: uppercase;
     top: -120px;
-    left:-30px;
     display:none;
     padding:0 20px;
+    border-radius: 5px;
     
 }
+
 span:after{
     content:'';
     position:absolute;
     bottom:-5px; 
     width:10px;
     height:10px;
-    background:#aaa7aa;
+    background-color: rgba(209, 209, 209, 1);
     left:50%;
     margin-left:-10px;
     -moz-transform:rotate(45deg);
